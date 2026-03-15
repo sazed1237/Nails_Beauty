@@ -3,13 +3,13 @@
 import React from "react";
 import { CardWrapper } from "../../ui/DashboardStatCard";
 import dynamic from "next/dynamic";
-import { ApexNonAxisChartSeries } from "apexcharts";
+import type { ApexAxisChartSeries } from "apexcharts";
 
 const ReactApexChart = dynamic(() => import("react-apexcharts"), {
   ssr: false,
 });
 
-const data: ApexNonAxisChartSeries = [
+const data: ApexAxisChartSeries = [
   {
     name: "Revenue",
     data: [300, 1200, 700, 1800, 900, 1600, 1100],
