@@ -1,0 +1,19 @@
+.accordionDarkText {
+  --theme-heading: #070707;
+  --theme-color: #4a4c56;
+  --theme-border: #e9f3f1;
+  --theme-btn-text: #e9f3f1;
+  --theme-btn-bg: #228573;
+}
+
+.accordionLightTextOnPink {
+  --theme-border: #ee81c4;
+}
+
+.accordionPrimaryText {
+  --theme-heading: var(--color-primary);
+  --theme-color: #6aa6a5;
+  --theme-border: #e9f3f1;
+  --theme-btn-text: #e9f3f1;
+  --theme-btn-bg: #228573;
+}

@@ -1,0 +1,377 @@
+{
+  "categories": [
+    {
+      "id": "cat_eyebrows",
+      "title": "Eyebrows",
+      "tabName": "Eyebrows",
+      "slug": "eyebrows",
+      "description": "Our Classic Manicure is the perfect choice for clean, healthy, and naturally beautiful nails. It includes gentle shaping, cuticle care, and a refreshing.",
+      "imageSrc": "/Images/our-service/image1.jpg",
+      "services": [
+        {
+          "id": "srv_brow_shape",
+          "title": "Brow Shape",
+          "slug": "brow-shape",
+          "variations": [
+            { "label": "New Client", "price": 65, "is_defalut": true },
+            { "label": "Returning Client", "price": 55 }
+          ]
+        },
+        {
+          "id": "srv_brow_lamination",
+          "title": "Brow Lamination",
+          "slug": "brow-lamination",
+          "variations": [
+            { "label": "Brow Lamination", "price": 90, "is_defalut": true },
+            { "label": "Shape for new client", "price": 140 },
+            { "label": "Shape for existing client", "price": 130 }
+          ]
+        },
+        {
+          "id": "srv_brow_tint",
+          "title": "Brow Tint",
+          "slug": "brow-tint",
+          "price": 25
+        },
+        {
+          "id": "srv_brow_dye",
+          "title": "Brow Dye",
+          "slug": "brow-dye",
+          "price": 35
+        }
+      ],
+      "extras": [
+        {
+          "id": "srv_lip_wax",
+          "title": "Lip Wax",
+          "slug": "lip-wax",
+          "price": 10
+        },
+        {
+          "id": "srv_chin_wax",
+          "title": "Chin Wax",
+          "slug": "chin-wax",
+          "price": 10
+        },
+        {
+          "id": "srv_face_sides_wax",
+          "title": "Sides of Face Wax",
+          "slug": "face-sides-wax",
+          "price": 10
+        },
+        {
+          "id": "srv_full_face_wax",
+          "title": "Full Face Wax",
+          "slug": "full-face-wax",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "id": "cat_eyelash_extensions",
+      "title": "Eyelash Extensions",
+      "tabName": "Eyelash Extensions",
+      "slug": "eyelash-extensions",
+      "description": "Our Classic Manicure is the perfect choice for clean, healthy, and naturally beautiful nails. It includes gentle shaping, cuticle care, and a refreshing.",
+      "imageSrc": "/Images/our-service/image2.jpg",
+      "services": [
+        {
+          "id": "srv_half_set_natural",
+          "title": "Half Set Natural Lashes",
+          "slug": "half-set-natural-lashes",
+          "variations": [
+            { "label": "Full Set", "price": 110, "is_defalut": true },
+            { "label": "2 Week Infill", "price": 65 },
+            { "label": "3 Week Infill", "price": 80 }
+          ]
+        },
+        {
+          "id": "srv_full_set_natural",
+          "title": "Full Set Natural Lashes",
+          "slug": "full-set-natural-lashes",
+          "variations": [
+            { "label": "Full Set", "price": 140, "is_defalut": true },
+            { "label": "2 Week Infill", "price": 80 },
+            { "label": "3 Week Infill", "price": 95 }
+          ]
+        },
+        {
+          "id": "srv_full_set_hybrid",
+          "title": "Full Set Hybrid Lashes",
+          "slug": "full-set-hybrid-lashes",
+          "variations": [
+            { "label": "Full Set", "price": 155, "is_defalut": true },
+            { "label": "2 Week Infill", "price": 85 },
+            { "label": "3 Week Infill", "price": 100 }
+          ]
+        },
+        {
+          "id": "srv_full_set_volume",
+          "title": "Full Set Volume Lashes",
+          "slug": "full-set-volume-lashes",
+          "variations": [
+            { "label": "Full Set", "price": 170, "is_defalut": true },
+            { "label": "2 Week Infill", "price": 90 },
+            { "label": "3 Week Infill", "price": 105 }
+          ]
+        },
+        {
+          "id": "srv_lash_removal",
+          "title": "Lash Removal",
+          "slug": "lash-removal",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "cat_lash_lifts",
+      "title": "Lash Lifts",
+      "tabName": "Lash Lifts",
+      "slug": "lash-lifts",
+      "description": "Our Classic Manicure is the perfect choice for clean, healthy, and naturally beautiful nails. It includes gentle shaping, cuticle care, and a refreshing.",
+      "imageSrc": "/Images/our-service/image3.jpg",
+      "services": [
+        {
+          "id": "srv_lash_lift",
+          "title": "Lash Lift",
+          "slug": "lash-lift",
+          "variations": [
+            { "label": "Lash Lift", "price": 85, "is_defalut": true },
+            { "label": "Lash colour", "price": 100 }
+          ]
+        },
+        {
+          "id": "srv_lash_colour",
+          "title": "Lash Colour",
+          "slug": "lash-colour",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "cat_head_spa",
+      "title": "Head Spa",
+      "tabName": "Head Spa",
+      "slug": "head-spa",
+      "description": "Our Classic Manicure is the perfect choice for clean, healthy, and naturally beautiful nails. It includes gentle shaping, cuticle care, and a refreshing.",
+      "imageSrc": "/Images/our-service/image4.jpg",
+      "services": [
+        {
+          "id": "srv_hair_wash_60",
+          "title": "Hair Wash (60 min)",
+          "slug": "hair-wash-60",
+          "duration": 60,
+          "price": 99
+        },
+        {
+          "id": "srv_signature_head_therapy",
+          "title": "Signature Head Therapy (90 min)",
+          "slug": "signature-head-therapy",
+          "duration": 90,
+          "price": 159
+        }
+      ]
+    },
+    {
+      "id": "cat_manicure_pedicure",
+      "title": "Spa Pedicure & Manicure",
+      "slug": "spa-pedicure-manicure",
+      "tabName": "Spa Pedicure & Manicure",
+      "duration": { "min": 30, "max": 60 },
+      "extra_info": "Normal polish application included",
+      "description": "Our Classic Manicure is the perfect choice for clean, healthy, and naturally beautiful nails. It includes gentle shaping, cuticle care, and a refreshing.",
+      "imageSrc": "/Images/our-service/image2.jpg",
+      "services": [
+        {
+          "id": "srv_pedicure",
+          "title": "Pedicure",
+          "slug": "pedicure",
+          "price": 50
+        },
+        {
+          "id": "srv_pedicure_shellac",
+          "title": "Pedicure with Shellac",
+          "slug": "pedicure-shellac",
+          "price": 60
+        },
+        {
+          "id": "srv_manicure",
+          "title": "Manicure",
+          "slug": "manicure",
+          "price": 35
+        },
+        {
+          "id": "srv_manicure_shellac",
+          "title": "Manicure with Shellac",
+          "slug": "manicure-shellac",
+          "price": 45
+        },
+        {
+          "id": "srv_deluxe_manicure",
+          "title": "Deluxe Manicure",
+          "slug": "deluxe-manicure",
+          "price": 60
+        },
+        {
+          "id": "srv_combo_mani_pedi",
+          "title": "Combo Manicure & Pedicure",
+          "slug": "combo-mani-pedi",
+          "price": 75
+        },
+        {
+          "id": "srv_combo_shellac_both",
+          "title": "Combo Manicure & Pedicure (With Shellac for Both)",
+          "slug": "combo-mani-pedi-shellac",
+          "price": 95
+        },
+        {
+          "id": "srv_kids_pedicure",
+          "title": "Kids Pedicure",
+          "slug": "kids-pedicure",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "cat_acrylic_nails",
+      "title": "Acrylic Nails",
+      "slug": "acrylic-nails",
+      "tabName": "Acrylic Nails",
+      "duration": { "min": 40, "max": 60 },
+      "description": "Our Classic Manicure is the perfect choice for clean, healthy, and naturally beautiful nails. It includes gentle shaping, cuticle care, and a refreshing.",
+      "imageSrc": "/Images/our-service/image1.jpg",
+      "services": [
+        {
+          "id": "srv_acrylic_short",
+          "title": "Full Set Short Nails",
+          "slug": "acrylic-short",
+          "price": 65
+        },
+        {
+          "id": "srv_acrylic_long",
+          "title": "Full Set Long Nails",
+          "slug": "acrylic-long",
+          "price": 75
+        },
+        {
+          "id": "srv_acrylic_infill",
+          "title": "Acrylic Infill",
+          "slug": "acrylic-infill",
+          "price": 55
+        },
+        {
+          "id": "srv_acrylic_removal",
+          "title": "Acrylic Removal",
+          "slug": "acrylic-removal",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "cat_builder_gelx",
+      "title": "Builder & GelX",
+      "slug": "builder-gelx",
+      "tabName": "Builder & GelX",
+      "duration": { "min": 20, "max": 55 },
+      "description": "Our Classic Manicure is the perfect choice for clean, healthy, and naturally beautiful nails. It includes gentle shaping, cuticle care, and a refreshing.",
+      "imageSrc": "/Images/our-service/image1.jpg",
+      "services": [
+        {
+          "id": "srv_gelx_fullset_tips",
+          "title": "Full Set with Tips",
+          "slug": "gelx-full-set-tips",
+          "price": 70
+        },
+        {
+          "id": "srv_gelx_overlay",
+          "title": "Full Set Overlay",
+          "slug": "gelx-overlay",
+          "price": 60
+        },
+        {
+          "id": "srv_gelx_infill",
+          "title": "Infill",
+          "slug": "gelx-infill",
+          "price": 55
+        },
+        {
+          "id": "srv_gelx_removal",
+          "title": "Removal",
+          "slug": "gelx-removal",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "cat_other_services",
+      "title": "Other Services",
+      "slug": "other-services",
+      "tabName": "Other Services",
+      "extra_info": "Normal polish application included",
+      "description": "Our Classic Manicure is the perfect choice for clean, healthy, and naturally beautiful nails. It includes gentle shaping, cuticle care, and a refreshing.",
+      "imageSrc": "/Images/our-service/image1.jpg",
+      "services": [
+        {
+          "id": "srv_nail_art",
+          "title": "Nail Art",
+          "slug": "nail-art",
+          "price_from": 5
+        },
+        {
+          "id": "srv_kids_nails_normal",
+          "title": "Kids Nails (Normal Polish)",
+          "slug": "kids-nails-normal",
+          "price": 10
+        },
+        {
+          "id": "srv_kids_nails_shellac",
+          "title": "Kids Nails (Shellac Polish)",
+          "slug": "kids-nails-shellac",
+          "price": 25
+        },
+        {
+          "id": "srv_normal_polish",
+          "title": "Normal Polish Hands/Toes",
+          "slug": "normal-polish-hands-toes",
+          "price": 25
+        },
+        {
+          "id": "srv_shellac_polish",
+          "title": "Shellac Polish Hands/Toes",
+          "slug": "shellac-polish-hands-toes",
+          "price": 35
+        },
+        {
+          "id": "srv_remove_shellac",
+          "title": "Remove Shellac",
+          "slug": "remove-shellac",
+          "price": 10
+        },
+        {
+          "id": "srv_french_tips",
+          "title": "French Tips",
+          "slug": "french-tips",
+          "price": 10
+        },
+        {
+          "id": "srv_chrome",
+          "title": "Chrome",
+          "slug": "chrome",
+          "price": 10
+        },
+        {
+          "id": "srv_cat_eyes",
+          "title": "Cat Eyes",
+          "slug": "cat-eyes",
+          "price": 10
+        },
+        {
+          "id": "srv_cut_buff_shape",
+          "title": "Cut, Buff, Shape Nails/Toes",
+          "slug": "cut-buff-shape-nails-toes",
+          "price": 20
+        }
+      ]
+    }
+  ]
+}
